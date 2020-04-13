@@ -1,0 +1,40 @@
+$box-size: 80px;
+
+.unit__container {
+  display: grid;
+  grid-template-areas:
+          "image top-right"
+          "image bottom-right";
+  border: 1px solid #61dafb;
+  padding: 10px;
+  height: $box-size;
+  width: $box-size;
+}
+
+.unit__image {
+  position: relative;
+
+  &-container {
+    grid-area: image;
+    place-self: center;
+    position: absolute;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+}
+
+.unit__detail {
+  color: #61dafb;
+  font-size: 1rem;
+  font-weight: bold;
+  &--upper {
+    grid-area: top-right;
+    place-self: start end;
+  }
+  &--lower {
+    grid-area: bottom-right;
+    place-self: end;
+  }
+}
+
