@@ -43,7 +43,7 @@ const Unit = (props) => {
                 />
             </div>
             {/*<span className='unit__detail unit__detail--upper'>{unitData.hitOrder}</span>*/}
-            <span className='unit__detail unit__detail--lower'>HP: {props.hp}</span>
+            <span className='unit__detail unit__detail--lower'>HP: {props.hp ? props.hp : hp}</span>
         </div>
     )
 };
