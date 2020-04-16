@@ -6,6 +6,9 @@ $box-size: 80px;
           "image top-right"
           "image bottom-right";
   border: 1px solid #61dafb;
+  &.unit--enemy {
+    border-color: indianred;
+  }
   padding: 10px;
   height: $box-size;
   width: $box-size;
@@ -23,6 +26,14 @@ $box-size: 80px;
     justify-content: center;
   }
 }
+
+.unit__corner-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+
 
 .unit__detail {
   color: #61dafb;

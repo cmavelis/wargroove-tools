@@ -567,7 +567,7 @@
       "amphibian":95,
       "rifleman":null,
       "commander":40,
-      "thief":null,
+      "thief":100,
       "building":70,
       "hq":35,
       "crystal":100
@@ -663,7 +663,7 @@
       "amphibian":95,
       "rifleman":null,
       "commander":40,
-      "thief":null,
+      "thief":100,
       "building":70,
       "hq":35,
       "crystal":100
